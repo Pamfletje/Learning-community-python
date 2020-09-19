@@ -34,3 +34,10 @@ print("The time the alarm goes of will be at", (14 + 51) % 24)
 ask_user_time = int(input("What hour is it?"))
 ask_user_wait = int(input("In how many hours will your alarm go off?"))
 print("Your alarm will go off at", (ask_user_time+ask_user_wait) % 24)
+
+# Extra question assignment week 2
+ask_user_distance = int(input("What is the distance in Km you want to travel?"))
+time_to_car = 10 #minutes
+speed_car = 100  #km/h
+arrival = ask_user_distance / speed_car + time_to_car/60
+print("You will be at your destination in", int(arrival//1), "hours and", arrival%1*60, "minutes.")
