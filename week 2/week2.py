@@ -41,3 +41,4 @@ time_to_car = 10 #minutes
 speed_car = 100  #km/h
 arrival = ask_user_distance / speed_car + time_to_car/60
 print("You will be at your destination in", int(arrival//1), "hours and", arrival%1*60, "minutes.")
+
